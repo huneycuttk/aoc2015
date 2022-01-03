@@ -122,4 +122,4 @@ puts "Value for a is #{a}" # 46065
 new_emulator = CircuitEmulator.new.build(instructions)
 new_emulator.wires["b"] = CircuitEmulator::InputGate.new(a.to_s)
 a = new_emulator.value_for("a")
-puts "New value for a is #{a}" # 46065
+puts "New value for a is #{a}" # 14134

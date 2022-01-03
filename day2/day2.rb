@@ -7,5 +7,5 @@ paper, ribbon = dimensions.reduce([0,0]) do |(paper, ribbon), dim|
   [paper, ribbon]
 end
 
-# paper is 1606483
+# paper is 1606483, ribbon 3842356
 puts "paper is #{paper}, ribbon is #{ribbon}"

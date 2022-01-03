@@ -8,4 +8,5 @@ floor, neg = instruction.each.with_index.reduce([0,nil]) do |(f,neg), (i, idx)|
   [nf, nneg]
 end
 
+# 280, 1797
 puts "floor is #{floor}, neg is #{neg}"

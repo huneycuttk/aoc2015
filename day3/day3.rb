@@ -17,6 +17,7 @@ houses = directions.reduce([[0,0]]) do |houses, direction|
 end
 at_least_one = houses.tally.keys.count
 
+# 2592
 puts "At least one present #{at_least_one}"
 
 # part 2
@@ -36,4 +37,5 @@ houses_with_robo = directions.reduce([[0,0],[0,0]]) do |houses, direction|
 end
 at_least_one_with_robo = houses_with_robo.tally.keys.count
 
+# 2360
 puts "At least one present with robo #{at_least_one_with_robo}"

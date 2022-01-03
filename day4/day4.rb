@@ -10,6 +10,7 @@ loop do
   break if digest =~ /^00000/
 end
 
+# 346386
 puts "number 5 is #{number5}"
 
 number6 = -1
@@ -20,4 +21,5 @@ loop do
   break if digest =~ /^000000/
 end
 
+# 9958218
 puts "number 6 is #{number6}"

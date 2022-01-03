@@ -13,6 +13,7 @@ nice = strings.filter do |string|
 end
 count = nice.count
 
+# 255
 puts "Number of nice strings is #{count}"
 
 # PART 2
@@ -26,4 +27,6 @@ nice_new = strings.filter do |string|
   !chars.each_cons(3).find { |(a,b,c)| a == c }.nil?
 end
 count_new = nice_new.count
+
+# 55
 puts "Number of nice strings with new rules is #{count_new}"
