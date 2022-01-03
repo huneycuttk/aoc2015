@@ -1,4 +1,4 @@
-instructions = File.readlines("input.txt")
+instructions = File.readlines("/Users/kph/Stuff/aoc2015/day1/input.txt")
 
 instruction = instructions.first.split('')
 
