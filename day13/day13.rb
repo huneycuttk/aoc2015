@@ -35,8 +35,8 @@ test_result = optimal_happiness(test_participants, test_quotients)
 puts "Test optimal happiness is #{test_result}" # 330
 
 result = optimal_happiness(participants, quotients)
-puts "Optimal happiness is #{result}"
+puts "Optimal happiness is #{result}" # 709
 
 participants << "Me"
 result = optimal_happiness(participants, quotients)
-puts "Optimal happiness with me is #{result}"
+puts "Optimal happiness with me is #{result}" # 668
