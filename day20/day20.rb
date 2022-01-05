@@ -24,6 +24,7 @@ puts "First house with at least #{presents} is #{house} at #{current}" # 831600
 
 # PART 2
 def non_infinite_elf_presents(number)
+  # we have to find all the divisors so we can exclude those where the elves dropped out
   factors = number.prime_division
   primes, powers = factors.transpose
   exponents = powers.map{|i| (0..i).to_a}
